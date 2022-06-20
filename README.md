@@ -5,7 +5,7 @@
 ## TODO:
 - [x] Sync with firebase
 - [ ] Add db config to env variables
-- [ ] Mobile resposivity
+- [ ] Mobile responsive
 - [x] Have fun!
 
 ## How to run this Project
