@@ -6,6 +6,7 @@
 - [x] Sync with firebase
 - [ ] Add db config to env variables
 - [ ] Mobile responsive
+- [ ] Loadings
 - [x] Have fun!
 
 ## How to run this Project
