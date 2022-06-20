@@ -1,0 +1,35 @@
+.progress-bar {
+    background-color: var(--color-two-dark);
+    width: 100%;
+    border-radius: 100vmax;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    position: relative;
+    box-shadow: 4px 3px 0 0 #000;
+}
+
+div[class^="progress-bar-fill-"]::after, div[class*=" progress-bar-fill-"]::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: var(--color-two);
+    border-radius: 100vmax;
+    height: calc(100% - 8px);
+}
+
+.progress-bar-fill-1::after {
+    width: calc(20% - 8px);
+}
+.progress-bar-fill-2::after {
+    width: calc(40% - 8px);
+}
+.progress-bar-fill-3::after {
+    width: calc(60% - 8px);
+}
+.progress-bar-fill-4::after {
+    width: calc(80% - 8px);
+}
+.progress-bar-fill-5::after {
+    width: calc(100% - 8px);
+}

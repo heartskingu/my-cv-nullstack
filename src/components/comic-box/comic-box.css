@@ -1,0 +1,95 @@
+.comic-box {
+  border: 3px solid #000;
+  border-radius: 8px;
+  padding: 16px;
+
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
+}
+
+.comic-box-color-dark {
+  background-color: #000;
+}
+
+.comic-box-color-one {
+  background-color: var(--color-one);
+}
+
+.comic-box-color-two {
+  background-color: var(--color-two);
+}
+
+.comic-box-color-three {
+  background-color: var(--color-three);
+}
+
+.comic-box-color-four {
+  background-color: var(--color-four);
+}
+
+.comic-box-color-one.comic-box-pattern-pattern-color-one {
+  background-image: linear-gradient(
+      135deg,
+      var(--pattern-color-one) 25%,
+      transparent 25%
+    ),
+    linear-gradient(225deg, var(--pattern-color-one) 25%, transparent 25%),
+    linear-gradient(45deg, var(--pattern-color-one) 25%, transparent 25%),
+    linear-gradient(315deg, var(--pattern-color-one) 25%, var(--color-one) 25%);
+}
+
+.comic-box-color-one.comic-box-pattern-pattern-color-two {
+  background-image: linear-gradient(
+      135deg,
+      var(--pattern-color-two) 25%,
+      transparent 25%
+    ),
+    linear-gradient(225deg, var(--pattern-color-two) 25%, transparent 25%),
+    linear-gradient(45deg, var(--pattern-color-two) 25%, transparent 25%),
+    linear-gradient(315deg, var(--pattern-color-two) 25%, var(--color-one) 25%);
+}
+
+.comic-box-color-two.comic-box-pattern-pattern-color-one {
+  background-image: linear-gradient(
+      135deg,
+      var(--pattern-color-one) 25%,
+      transparent 25%
+    ),
+    linear-gradient(225deg, var(--pattern-color-one) 25%, transparent 25%),
+    linear-gradient(45deg, var(--pattern-color-one) 25%, transparent 25%),
+    linear-gradient(315deg, var(--pattern-color-one) 25%, var(--color-two) 25%);
+}
+
+.comic-box-color-three.comic-box-pattern-pattern-color-one {
+  background-image: linear-gradient(
+      135deg,
+      var(--pattern-color-one) 25%,
+      transparent 25%
+    ),
+    linear-gradient(225deg, var(--pattern-color-one) 25%, transparent 25%),
+    linear-gradient(45deg, var(--pattern-color-one) 25%, transparent 25%),
+    linear-gradient(315deg, var(--pattern-color-one) 25%, var(--color-three) 25%);
+}
+
+.comic-box-color-four.comic-box-pattern-pattern-color-two {
+  background-image: linear-gradient(
+      135deg,
+      var(--pattern-color-two) 25%,
+      transparent 25%
+    ),
+    linear-gradient(225deg, var(--pattern-color-two) 25%, transparent 25%),
+    linear-gradient(45deg, var(--pattern-color-two) 25%, transparent 25%),
+    linear-gradient(315deg, var(--pattern-color-two) 25%, var(--color-four) 25%);
+}
+
+.comic-box-pattern-pattern-color-dark {
+  background-image: linear-gradient(
+      135deg,
+      var(--pattern-color-two) 25%,
+      transparent 25%
+    ),
+    linear-gradient(225deg, var(--pattern-color-two) 25%, transparent 25%),
+    linear-gradient(45deg, var(--pattern-color-two) 25%, transparent 25%),
+    linear-gradient(315deg, var(--pattern-color-two) 25%, #000 25%);
+}
