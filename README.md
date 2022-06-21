@@ -9,6 +9,9 @@
 - [ ] Loadings
 - [x] Have fun!
 
+## Deployed repo:
+https://my-cv-nullstack.vercel.app/
+
 ## How to run this Project
 
 Install the dependencies:
