@@ -12,6 +12,10 @@
 ## Deployed repo:
 https://my-cv-nullstack.vercel.app/
 
+## Preview:
+![image](https://user-images.githubusercontent.com/26335741/175071610-79aafbed-0e85-48d7-b094-c9304f6549b1.png)
+
+
 ## How to run this Project
 
 Install the dependencies:
